@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-to-lithtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "run-p install-angular install-lithtml",
+    "install-angular": "cd angularjs && npm i",
+    "install-lithtml": "cd lithtml && npm i",
+    "start": "http-server"
+  },
+  "author": "Mikhail Kuznetcov",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

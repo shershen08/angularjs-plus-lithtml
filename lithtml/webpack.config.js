@@ -52,7 +52,7 @@ const commonConfig = merge([
     entry: ['./app.js', './updater.js'],
     output: {
       path: OUTPUT_PATH,
-      filename: '[name].[chunkhash:8].js'
+      filename: '[name].js'
     },
     module: {
       rules: [

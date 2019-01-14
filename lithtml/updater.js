@@ -31,9 +31,9 @@ class ShouldUpdate extends LitElement {
 
   render() {
     return html`
-      Current Angular state: ${this.count}
+      Current Angular state: <code>${this.count}</code>
       <br>
-      Listning status: ${this.active}
+      Listning status:<strong> ${this.active}</strong>
       <br>
       <button @click="${() => this.active = !this.active}">
         Toggle listening

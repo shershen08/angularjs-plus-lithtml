@@ -4,20 +4,19 @@ Demo on approaches towards migrations of large scale app built with AngularJS to
 
 ## Install
 
-```
-cd lithtml && npm i
-cd angularjs && npm i
-```
+```npm install```
 
 ## Run 
 
-Run any http server in the root folder
+```npm run start```
 
-`<div id="lithtml-app-separate"` - where the liHTML app mounts, not inside AngularJS
+Page contains following elements:
 
-`<div ng-app="todomvc"` - where AngularJS is bootstrapped
+ - `<div id="lithtml-app-separate"` - where the liHTML app mounts, not inside AngularJS
 
-`<div id="lithtml-app-builtin"` - where the liHTML app mounts, within AngularJS
+ - `<div ng-app="todomvc"` - where AngularJS is bootstrapped
+
+ - `<div id="lithtml-app-builtin"` - where the liHTML app mounts, within AngularJS
 
 ## Key points
 
