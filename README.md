@@ -13,6 +13,12 @@ cd angularjs && npm i
 
 Run any http server in the root folder
 
+`<div id="lithtml-app-separate"` - where the liHTML app mounts, not inside AngularJS
+
+`<div ng-app="todomvc"` - where AngularJS is bootstrapped
+
+`<div id="lithtml-app-builtin"` - where the liHTML app mounts, within AngularJS
+
 ## Key points
 
 ### Initial load
@@ -29,6 +35,12 @@ Can be replaced with library that makes this controle more finegrained and testa
 - TODO
 
 ### Migration strategy
+
+
+## References
+
+ - [https://github.com/thepassle/create-lit-app](create-lit-app repo with build settings)
+ - [https://github.com/LarsDenBakker/lit-html-examples](lit-html-examples repo)
 
 
 
