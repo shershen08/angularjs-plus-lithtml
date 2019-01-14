@@ -1,2 +1,4 @@
 lithtml/node_modules
+lithtml/dist
 angularjs/node_modules
+package-lock.json
