@@ -1,4 +1,4 @@
-# Combining AngularJS (as legacy app) with litHTML app code
+# Combining AngularJS with litHTML app code
 
 Demo on approaches towards migrations of large scale app built with AngularJS to modern Web components based frameworks.
 
@@ -41,10 +41,10 @@ Can be replaced with library that makes this data flow control more finegrained 
 
 ## References
 
- - (create-lit-app repo with build settings)[https://github.com/thepassle/create-lit-app]
- - (lit-html-examples repo)[https://github.com/LarsDenBakker/lit-html-examples]
+ - [create-lit-app repo with build settings](https://github.com/thepassle/create-lit-app)
+ - [lit-html-examples repo](https://github.com/LarsDenBakker/lit-html-examples])
 
 
+## Questions and suggestions
 
-
-Questions and suggestions: [@legkoletat](https://twitter.com/legkoletat)
+[@legkoletat](https://twitter.com/legkoletat)
