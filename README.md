@@ -1,4 +1,4 @@
-# Combining AngularJS (legacy app) with litHTML code
+# Combining AngularJS (as legacy app) with litHTML app code
 
 Demo on approaches towards migrations of large scale app built with AngularJS to modern Web components based frameworks.
 
@@ -22,24 +22,27 @@ Page contains following elements:
 
 ### Initial load
 
-First AngularJS app loads and then triggers the loading of the modern app.
+First AngularJS app loads and then triggers the loading of the liHTML app.
 
 ### Data exchange
 
 Global event bus via events on window object.
-Can be replaced with library that makes this controle more finegrained and testable.
+Can be replaced with library that makes this data flow control more finegrained and testable.
 
 ### Build process 
 
-- TODO
+ - litHTML app is build as a part of the install process
+ - TODO: add AngularJS build example
 
-### Migration strategy
+### Detailed AngularJs app migration strategy
+
+- TODO
 
 
 ## References
 
- - [https://github.com/thepassle/create-lit-app](create-lit-app repo with build settings)
- - [https://github.com/LarsDenBakker/lit-html-examples](lit-html-examples repo)
+ - (create-lit-app repo with build settings)[https://github.com/thepassle/create-lit-app]
+ - (lit-html-examples repo)[https://github.com/LarsDenBakker/lit-html-examples]
 
 
 
